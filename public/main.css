@@ -1,0 +1,71 @@
+/* default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  color: floralwhite;
+}
+body {
+  background-color: darkslategrey;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 120%;
+}
+h1 {
+  font-size: 4vh;
+}
+h2 {
+  font-size: 3.777vh;
+}
+h3 {
+  font-size: 3.555vh;
+}
+h4 {
+  font-size: 3.333vh;
+}
+h5 {
+  font-size: 3vh;
+}
+
+/* button styles */
+
+.btn {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1.111vh 2.222vh;
+  border-radius: 1.111vh;
+  border: none;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+  margin: 0 1.111vh;
+}
+.btn-warning {
+  background-color: orange;
+}
+.btn-warning:hover {
+  background-color: rgb(247, 176, 44);
+}
+.btn-danger {
+  background-color: rgb(194, 71, 40);
+}
+.btn-danger:hover {
+  background-color: rgb(206, 90, 61);
+}
+.btn-default {
+  background-color: rgb(47, 121, 121);
+}
+.btn-default:hover {
+  background-color: rgb(62, 165, 165);
+}
+/* input styles */
+
+.input {
+  padding: 1.111vh 2.222vh;
+  border-radius: 1.111vh;
+  color: black;
+  font-size: 2vh;
+}
